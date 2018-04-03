@@ -1,0 +1,38 @@
+{
+  "name": "shoppinglist-node",
+  "version": "0.0.1",
+  "description": "Shareable shopping list app written in node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotrpliszko/shoppinglist-node.git"
+  },
+  "keywords": [
+    "node",
+    "shopping",
+    "list"
+  ],
+  "author": "Piotr Pliszko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piotrpliszko/shoppinglist-node/issues"
+  },
+  "homepage": "https://github.com/piotrpliszko/shoppinglist-node#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "helmet": "^3.9.0",
+    "jsonwebtoken": "^8.1.0",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.13.10"
+  }
+}
